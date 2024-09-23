@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="header container">
       <nav class="header__nav">
         <a class="logo" href="./index.html">
           <span>LOGO</span>
@@ -21,13 +21,13 @@
 
         <ul class="site-nav list">
           <li class="site-nav__item">
-            <svg class="site-nav__icon">
+            <svg class="site-nav__icon" width="24" height="24">
               <use></use>
             </svg>
-            <a class="site-nav__link" href="">Bonuses</a>
+            <a class="site-nav__link" href="">BONUSES</a>
           </li>
           <li class="site-nav__item">
-            <svg class="site-nav__icon">
+            <svg class="site-nav__icon" width="24" height="24">
               <use></use>
             </svg>
             <a class="site-nav__link" href="">APP</a>
@@ -43,18 +43,25 @@
           </li>
         </ul>
       </nav>
-      <button class="button">
-        <svg class="button__icon">
+      <button class="button" type="button">
+        <svg class="button__icon button__icon--left" width="24" height="24">
           <use></use>
         </svg>
         AT
+        <svg class="button__icon button__icon--right" width="24" height="24">
+          <use></use>
+        </svg>
       </button>
       <ul class="button-list list">
         <li class="button-list__item">
-          <a class="button-list__link" href="#">Sign up</a>
+          <a class="button-list__link button-list__link--sing" href="#"
+            >Sign up</a
+          >
         </li>
         <li class="button-list__item">
-          <a class="button-list__link" href="#">log in</a>
+          <a class="button-list__link button-list__link--log" href="#"
+            >log in</a
+          >
         </li>
       </ul>
     </header>

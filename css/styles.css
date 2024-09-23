@@ -1,0 +1,153 @@
+body {
+  /* background-image: radial-gradient(
+    circle at center,
+    #ffffff 0%,
+    #00b9de 10%,
+    #0085c2 40%,
+    #00689a 68%,
+    #00537b 100%
+  ); */
+  /* background-color: 1A3769; */
+
+  background-color: #141e55;
+
+  /* color: 192A32; */
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1240px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
+.header {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #192a32;
+}
+
+.logo {
+  display: block;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #141e55;
+  padding: 14px 32px 14px 32px;
+  text-decoration: none;
+  margin-right: 28px;
+}
+
+.site-nav.list {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.site-nav__item {
+  display: flex;
+  margin-right: 21px;
+}
+
+.site-nav__item:last-child {
+  margin-right: 50px;
+}
+.site-nav__link {
+  position: relative;
+  display: block;
+  color: #fcfcfc;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  background-color: #1a3769;
+  border-radius: 16px;
+  padding: 14px 24px;
+}
+
+.button {
+  display: flex;
+  width: 131px;
+  height: 48px;
+  padding: 14px 20px 14px 24px;
+  border-radius: 16px;
+  background-color: #1a3769;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  align-items: center;
+  border: transparent;
+}
+
+.button__icon--right {
+  margin-left: 8px;
+}
+
+.button__icon--left {
+  margin-right: 8px;
+}
+
+.button-list {
+  display: flex;
+  align-items: center;
+}
+
+.button-list__link {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #fcfcfc;
+}
+
+.button-list__item {
+  margin-left: 16px;
+}
+
+.button-list__link {
+  padding: 14px 32px;
+  border-radius: 16px;
+}
+.button-list__link--sing {
+  background-color: #ec622b;
+}
+
+.button-list__link--log {
+  background-color: #0fa810;
+}
