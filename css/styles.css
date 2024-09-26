@@ -34,6 +34,10 @@ p {
   list-style: none;
 }
 
+.link{
+  text-decoration: none;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -689,4 +693,82 @@ flex-direction: column;
 
 .comments__stars{
   display: flex;
+}
+
+.support{
+  background-size: cover;
+    background-position: center;
+  background-image: url(../images/image\ 1946.jpg);
+}
+.support__title{
+  font-weight: 700;
+  font-size: 48px;
+  color:#192A32;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.support__text{
+  font-weight: 400;
+  font-size: 16px;
+  color:#192A32;
+  margin-bottom:24px ;
+}
+.support__list{
+  display: flex;
+
+}
+
+.support__item{
+  margin-right: 16px;
+  display: flex;
+}
+
+.support__item:last-child{
+  margin-right: 0;
+}
+.support__button{
+  width: 127px;
+  height: 48px;
+  border-radius: 16px;
+  border: 1px solid #192A32;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 16px;
+  color: #192A32;
+  justify-content: center;
+  display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.support__icon{
+  width: 24px;height: 24px;
+  margin-right: 10px;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+}
+.contacts__icon{
+  width: 24px;height: 24px;
+  margin-right: 16px;
+}
+
+.contacts__item{
+  display: flex;
+  border-bottom: 2px solid #192A32;
+  margin-bottom: 16px;
+}
+
+.contacts__text{
+  font-weight: 400;
+  font-size: 16px;
+  min-width: 225px;
+  margin-right: 26px;
+color: #192A32;
+}
+
+.contacts__link{
+  color: #2E9344;
+
 }
