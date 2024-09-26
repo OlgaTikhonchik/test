@@ -89,6 +89,16 @@ img {
 .site-nav__item:last-child {
   margin-right: 50px;
 }
+
+.site-nav__wrapp{
+  display: flex;
+  align-items: center;
+  background-color: #1a3769;
+  border-radius: 16px;
+  padding: 14px 24px;
+  
+}
+
 .site-nav__link {
   position: relative;
   display: block;
@@ -101,6 +111,18 @@ img {
   border-radius: 16px;
   padding: 14px 24px;
 }
+
+.site-nav__link--icon{
+  padding: 0;
+}
+
+.site-nav__icon{
+  width: 24px;height: 24px;
+  margin-right: 2px;
+  
+}
+
+
 
 .button {
   display: flex;
@@ -184,6 +206,12 @@ img {
   display: flex;
 }
 
+.install__icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
 .install__info {
   font-size: 16px;
   font-weight: 400;
@@ -191,7 +219,7 @@ img {
 }
 .install__button {
   display: flex;
-  max-width: 179px;
+  min-width: 179px;
   height: 48px;
   border-radius: 16px;
   background-color: #1a3769;
@@ -201,7 +229,7 @@ img {
   font-weight: 600;
   text-transform: uppercase;
   margin-left: 40px;
-  /* text-align: center; */
+  align-items: center;
 
   white-space: nowrap;
 }
@@ -217,6 +245,18 @@ img {
   height: 100%;
 }
 
+.left-bar__img{
+  width: 40px;height: 40px;
+  margin-right: 18px;
+}
+
+.left-bar__img--right{
+  width: 20px;height: 20px;
+  margin-left: 18px;
+  margin-right: 0;
+  
+}
+
 .left-bar__wrapper {
   background-color: #192a32;
   display: block;
@@ -224,7 +264,7 @@ img {
 }
 .left-bar__button {
   display: flex;
-  width: 251px;
+  min-width: 251px;
   height: 48px;
   border-radius: 60px;
   border: transparent;
@@ -422,6 +462,53 @@ img {
   
 }
 
+.casino{
+ width: 295px;
+ height: 510px;
+ margin-left: 20px;
+}
+
+.casino__text{
+  font-weight: 600;
+  font-size: 16px;
+  color: #fcfcfc;
+  background-color: #192A32;
+  padding: 20px 116px;
+}
+.casino__item{
+  position: relative;
+}
+.casino__img{
+  
+  width: 120px;
+  height: 130px;
+}
+.casino__img--button{
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  width: 79px;
+  height: 30px;
+  background-color: #EC622B;
+  border-radius: 16px;
+  color:#FCFCFC;
+  text-transform: uppercase;
+  text-align: center;
+  border: transparent;
+}
+.casino__list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 20px 25px;
+  background-color: #fff;
+}
+
+.wrapp-casino{
+  display: flex;
+  justify-content: center;
+}
+
 .deposit{
   background-image: url("../images/image\ 1945.jpg");
   background-size: cover;
@@ -433,6 +520,7 @@ img {
   display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
   
 }
 
@@ -475,6 +563,10 @@ img {
   font-size: 16px;
 
 }
+.rating{
+  margin-right: auto;
+}
+
 .rating__list{
   display: flex;
   flex-direction: column;
@@ -482,7 +574,7 @@ img {
 }
 
 .rating__item{
-  width: 885px;
+  width: 925px;
   height: 63px;
   background-color:#80BEF8;
   border-radius: 6px;
@@ -771,4 +863,85 @@ color: #192A32;
 .contacts__link{
   color: #2E9344;
 
+}
+
+.faq__title{
+  font-weight: 700;
+  font-size: 48px;
+  color: #192A32;
+  margin-bottom: 32px;
+}
+
+.faq__question{
+  font-weight: 600;
+  font-size: 16px;
+  color:#192A32;
+  
+
+}
+
+.faq-text{
+  font-weight: 400;
+  font-size: 16px;
+  color:#192A32;
+  padding: 16px 12px ;
+  background-color: #DFE8F6;
+  border-radius:6px ;
+  margin-bottom: 24px;
+  
+}
+
+.faq__icon{
+  width: 24px;
+  height: 24px;
+}
+
+.faq__wrapp{
+  display: flex;
+  padding: 20px;
+  border:1px solid #777777;
+  justify-content: space-between;
+
+}
+
+.footer{
+  padding: 35px 20px;
+}
+
+.footer__text{
+  font-weight: 400;
+  font-size: 16px;
+  color: #192A32;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+.footer__img{
+  width: 85px;height: 85px;
+}
+
+.footer__wrapp{
+  display: flex;
+  
+}
+
+.footer__list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo{
+  font-weight: 400;
+  font-size: 32px;
+  color: #ffffff;
+  background-color:#141E55;
+  text-align: center;
+}
+
+.footer__logo--left{
+  padding: 6px 30px 8px 31px;
+}
+
+.footer__logo--right{
+ padding: 6px 81px 7px 82px;
 }
