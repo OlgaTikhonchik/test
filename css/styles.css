@@ -15,6 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  
 }
 
 h1,
@@ -45,20 +46,26 @@ img {
   width: 100%;
 }
 
+
 .container {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
   width: 1240px;
-  padding-left: 15px;
-  padding-right: 15px;
+  
+  padding-right: 35px;
   outline: 2px solid tomato;
+  
 }
 
+
 .header {
+  
   display: flex;
   padding-top: 16px;
   padding-bottom: 16px;
   background-color: #192a32;
+  justify-content: center;
+  min-width: 1240px;
 }
 
 .logo {
@@ -565,6 +572,7 @@ img {
 }
 .rating{
   margin-right: auto;
+  display: inline-flex;
 }
 
 .rating__list{
@@ -608,7 +616,13 @@ img {
   align-items: center;
   margin-left: auto;
   padding-right: 16px;
+
 }
+.facts{
+  display: inline-flex;
+  flex-direction: column;
+}
+
 .facts__title{
   font-weight: 700;
   font-size: 40px;
@@ -653,6 +667,9 @@ img {
 
 .review{
   padding-bottom: 32px;
+  display: inline-flex;
+    flex-direction: column;
+  
 }
 .review__title{
   font-weight: 700;
@@ -696,6 +713,11 @@ img {
   border-radius: 16px;
   border: transparent;
   
+}
+
+.comments{
+display: inline-flex;
+flex-direction: column;
 }
 
 .comments__list{
@@ -791,6 +813,8 @@ flex-direction: column;
   background-size: cover;
     background-position: center;
   background-image: url(../images/image\ 1946.jpg);
+  display: inline-flex;
+    flex-direction: column;
 }
 .support__title{
   font-weight: 700;
@@ -865,6 +889,11 @@ color: #192A32;
 
 }
 
+.faq{
+  display: inline-flex;
+    flex-direction: column;
+}
+
 .faq__title{
   font-weight: 700;
   font-size: 48px;
@@ -906,6 +935,8 @@ color: #192A32;
 
 .footer{
   padding: 35px 20px;
+  display: inline-flex;
+    flex-direction: column;
 }
 
 .footer__text{
