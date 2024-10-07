@@ -1,12 +1,5 @@
 body {
-  /* background-image: radial-gradient(
-    circle at center,
-    #ffffff 0%,
-    #00b9de 10%,
-    #0085c2 40%,
-    #00689a 68%,
-    #00537b 100%
-  ); */
+  
 
   background-color: #141e55;
 
@@ -53,7 +46,7 @@ img {
   width: 1240px;
   
   padding-right: 35px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   
 }
 
@@ -189,7 +182,7 @@ img {
 .section {
   width: 925px;
   padding: 25px 20px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -244,7 +237,7 @@ img {
 .left-bar {
   max-width: 295px;
   height: 704px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   background-color: #ffffff;
   margin-top: 20px;
   margin-left: 18px;
