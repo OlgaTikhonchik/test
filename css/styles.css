@@ -1441,7 +1441,7 @@ color: #192A32;
 }
 
 
-@media screen  and (min-width: 480px) {
+@media screen  and (min-width: 481px) {
   .menu-open {display: none;}
 }
 
